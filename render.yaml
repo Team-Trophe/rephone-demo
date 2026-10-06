@@ -1,0 +1,8 @@
+# Place this file at the repository root when using Render Blueprints.
+# For a repository containing the phone-store subfolder, set rootDir: phone-store.
+services:
+  - type: web
+    name: rephone-demo
+    runtime: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist

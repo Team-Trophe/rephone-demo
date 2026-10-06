@@ -1,0 +1,1 @@
+{"name":"rephone-store","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node server.js","build":"node build.js","preview":"node server.js"}}
